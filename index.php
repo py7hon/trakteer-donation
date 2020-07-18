@@ -1,8 +1,8 @@
 <?php
 	require('simple_html_dom.php');
-	$id = $_GET['id'];
-if($_GET['id'] != ""){
-	$id = $_GET['id'];
+	$id = $_GET['widget'];
+if($_GET['widget'] != ""){
+	$id = $_GET['widget'];
 		$html = file_get_html('https://trakteer.id/'.$id);
 ?>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
