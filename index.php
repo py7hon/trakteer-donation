@@ -15,7 +15,7 @@ if($_GET['widget'] != ""){
    		echo '<div class="progress">';
    		echo $element->find('div.progress-bar-container', 0)->innertext,"<br/>\n";
 		echo '</div><br/>';
-		echo '<a href="https://trakteer.id/',$id,'" class="btn btn-primary" role="button" aria-pressed="true">Kirim Dukungan</a>';
+		echo '<a href="https://trakteer.id/',$id,'" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button" aria-pressed="true">Kirim Dukungan</a>';
 		echo '</div>';
 		echo '</div>';
 }}else{echo"id not found";}?>
